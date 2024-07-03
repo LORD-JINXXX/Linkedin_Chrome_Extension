@@ -51,10 +51,10 @@ Click on "Load unpacked" and select the dist folder inside your project director
 
 #### This video demonstrates the functionality of the Chrome extension:
 
-<video width="640" height="480" controls>
-  <source src="demo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+          <video width="640" height="480" controls>
+             <source src="demo.mp4" type="video/mp4">
+             Your browser does not support the video tag.
+          </video>
 
 ## Acknowledgements
 #### Tailwind CSS for rapid UI development
