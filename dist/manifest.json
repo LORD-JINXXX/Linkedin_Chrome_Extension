@@ -1,0 +1,27 @@
+{
+    "manifest_version": 3,
+    "name": "Linkedin Message Generator",
+    "version": "1.0.0",
+    "description": "This is an extension which help to reply linkedin messages by generating auto reply for evey messages",
+    "icons": {
+        "48": "icon.png",
+        "128": "icon.png"
+    },
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ],
+    "action": {
+        "default_title": "Click me",
+        "default_popup": "index.html"
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "content_scripts": [
+        {
+            "matches": ["https://www.linkedin.com/*"],            
+            "js": ["contentScript.js"]
+        }
+    ]
+}
