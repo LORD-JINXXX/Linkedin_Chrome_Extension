@@ -8,10 +8,11 @@
 ## Installation
 Clone the repository:
 
-bash
-Copy code
-git clone https://github.com/your-username/your-chrome-extension.git
-cd linkedin_chrome_extension
+      ```
+      Copy code
+      git clone https://github.com/LORD-JINXXX/Linkedin_Chrome_Extension.git
+      cd linkedin_chrome_extension
+      ```
 Install dependencies:
 
 bash
