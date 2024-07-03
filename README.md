@@ -8,38 +8,32 @@
 ## Installation
 Clone the repository:
 
-      ```
+      
       Copy code
       git clone https://github.com/LORD-JINXXX/Linkedin_Chrome_Extension.git
       cd linkedin_chrome_extension
-      ```
+      
 Install dependencies:
 
-bash
-Copy code
-npm install
+
+      Copy code
+      npm install
 Build the extension:
 
-bash
-Copy code
-npm run build
+
+      Copy code
+      npm run watch
 Load the extension in Chrome:
 
 Open Chrome and go to chrome://extensions/
 Enable "Developer mode" in the top right corner.
 Click on "Load unpacked" and select the dist folder inside your project directory.
-Usage:
 
-Click on the extension icon to open the popup.
-Click on the "Generate" button to generate a message text.
-Click on the "Insert" button to insert the generated text into the LinkedIn message input box.
-Development
-Run development server:
+## Usage:
 
-bash
-Copy code
-npm start
-This command starts the webpack dev server and opens the extension popup in the browser. Changes to the code will automatically reload the extension.
+#### Click on the extension icon to open the popup.
+#### Click on the "Generate" button to generate a message text.
+#### Click on the "Insert" button to insert the generated text into the LinkedIn message input box.
 
 ## Technologies Used
 
@@ -52,6 +46,15 @@ This command starts the webpack dev server and opens the extension popup in the 
 #### css-loader
 #### style-loader
 #### postcss-loader
+
+## Chrome Extension Demo
+
+#### This video demonstrates the functionality of the Chrome extension:
+
+<video width="640" height="480" controls>
+  <source src="demo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ## Acknowledgements
 #### Tailwind CSS for rapid UI development
