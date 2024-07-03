@@ -9,19 +9,19 @@
 Clone the repository:
 
       
-      Copy code
+      
       git clone https://github.com/LORD-JINXXX/Linkedin_Chrome_Extension.git
       cd linkedin_chrome_extension
       
 Install dependencies:
 
 
-      Copy code
+      
       npm install
 Build the extension:
 
 
-      Copy code
+      
       npm run watch
 Load the extension in Chrome:
 
@@ -50,11 +50,10 @@ Click on "Load unpacked" and select the dist folder inside your project director
 ## Chrome Extension Demo
 
 #### This video demonstrates the functionality of the Chrome extension:
-
-          <video width="640" height="480" controls>
-             <source src="demo.mp4" type="video/mp4">
-             Your browser does not support the video tag.
-          </video>
+<video width="1000" height="720" controls>
+  <source src="https://github.com/LORD-JINXXX/Linkedin_Chrome_Extension/demo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ## Acknowledgements
 #### Tailwind CSS for rapid UI development
