@@ -55,6 +55,8 @@ Click on "Load unpacked" and select the dist folder inside your project director
   Your browser does not support the video tag.
 </video>
 
+https://github.com/LORD-JINXXX/Linkedin_Chrome_Extension/blob/main/demo.mp4
+
 ## Acknowledgements
 #### Tailwind CSS for rapid UI development
 
